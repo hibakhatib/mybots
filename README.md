@@ -12,14 +12,14 @@ Although the preferred task was 500 generations, the run time for my generations
 
 ### General Overview
 
-Quick gif showing one evolution:  **insert video here**
+Quick gif showing one evolution:  ![Evolutionary Robotics Teaser - Made with Clipchamp](https://user-images.githubusercontent.com/98929421/224638366-e6e78117-206e-42e9-b4c4-2a2197a687cd.gif)
 <br>
 
-insert gif here: **insert video here**
-
 <br>
 
-Video showing evolution: 
+2 minute video showing numerous evolutions: 
+
+<br>
 
 Other fun bodies that emerged: **insert video here**
 
