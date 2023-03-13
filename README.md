@@ -17,13 +17,16 @@ Quick gif showing one evolution:
 ![Evolutionary Robotics Teaser - Made with Clipchamp](https://user-images.githubusercontent.com/98929421/224638366-e6e78117-206e-42e9-b4c4-2a2197a687cd.gif)
 <br>
 
+Summary video: 
+<br>
+
+<br>
+
 <br>
 
 2 minute video showing numerous evolutions: 
 
 <br>
-
-Other fun bodies that emerged: **insert video here**
 
 For my final project, I evolved random creatures in 3D. As opposed to my previous bodies, these creatures do not have a presupposed body shape and are randomized to a much greater degree. 
 
