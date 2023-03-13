@@ -12,16 +12,16 @@ Although the preferred task was 500 generations, the run time for my generations
 
 ### General Overview
 
-Quick gif showing one evolution: 
+Quick gif showing one evolution:  **insert video here**
 <br>
 
-insert gif here
+insert gif here: **insert video here**
 
 <br>
 
 Video showing evolution: 
 
-Other fun bodies that emerged:
+Other fun bodies that emerged: **insert video here**
 
 For my final project, I evolved random creatures in 3D. As opposed to my previous bodies, these creatures do not have a presupposed body shape and are randomized to a much greater degree. 
 
@@ -33,22 +33,28 @@ After cloning this repo, run the command "python search.py" in your terminal. Yo
 
 ### Body Genotype & Phenotype 
 
-!['body](image.png)
+<img width="393" alt="genotype_phenotype" src="https://user-images.githubusercontent.com/98929421/224611045-45621bac-adc5-4b40-b641-b0ab0508e80f.png">
 
 Examples of randomly generated bodies:
-(insert gif of bodies here)
+   **(insert gif of bodies here)**
 
 ### Brain Generation
 
-!['brain'](image.png)
+<img width="318" alt="brain" src="https://user-images.githubusercontent.com/98929421/224611065-4ba83be1-79da-4df1-98e2-290d28c5b2df.png">
 
 
 ### Mutations & Parent/Child Genotypes
 
+     this is one example of a mutation; include more info and additional diagrams.
+
+![65752](https://user-images.githubusercontent.com/98929421/224611345-03608e36-8b13-4a44-aa6b-9ae0f53a9d88.jpg)
 
 
 ### Fitness & Fitness Curves
 
+     **insert desc about how fitness calculated**
+
+![Final_fit_curve](https://user-images.githubusercontent.com/98929421/224611172-dd14414b-769f-42d4-b27b-07e8a2da5bae.png)
 
 
 #### Citations 
