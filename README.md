@@ -3,7 +3,7 @@ Hiba Khatib
 
 
 ### Brief notes on number of simulations
-Project: Engineer Option
+Project: Engineer Option (44pts)
 
 
 In my final project, I improved my A8 assignment and ran it for 300 generations on populations of 10 on 10 random seeds. 
@@ -12,7 +12,9 @@ Although the preferred task was 500 generations, the run time for my generations
 
 ### General Overview
 
-Quick gif showing one evolution:  ![Evolutionary Robotics Teaser - Made with Clipchamp](https://user-images.githubusercontent.com/98929421/224638366-e6e78117-206e-42e9-b4c4-2a2197a687cd.gif)
+Quick gif showing one evolution:  
+<br>
+![Evolutionary Robotics Teaser - Made with Clipchamp](https://user-images.githubusercontent.com/98929421/224638366-e6e78117-206e-42e9-b4c4-2a2197a687cd.gif)
 <br>
 
 <br>
@@ -33,35 +35,40 @@ After cloning this repo, run the command "python search.py" in your terminal. Yo
 
 ### Body Genotype & Phenotype 
 
-<img width="393" alt="genotype_phenotype" src="https://user-images.githubusercontent.com/98929421/224611045-45621bac-adc5-4b40-b641-b0ab0508e80f.png">
-
-Examples of randomly generated bodies:
-   **(insert gif of bodies here)**
+![image](https://user-images.githubusercontent.com/98929421/224853803-a0b8e540-5527-4b63-a8bb-88034648daf1.png)
 
 ### Brain Generation
 
-<img width="318" alt="brain" src="https://user-images.githubusercontent.com/98929421/224611065-4ba83be1-79da-4df1-98e2-290d28c5b2df.png">
-
+![image](https://user-images.githubusercontent.com/98929421/224853845-ac0cc1ca-fe03-4950-99c3-0ed0168bd718.png)
 
 ### Mutations & Parent/Child Genotypes
 
-     this is one example of a mutation; include more info and additional diagrams.
+The diagrams below explains the three different types of mutations. All of these mutations occurred at random. There was a mutation on every best robot per generation. The addition or removal of a link was a 50% chance while the synapse weights and sensor removals/link size changes occurred every time. 
 
-![65752](https://user-images.githubusercontent.com/98929421/224611345-03608e36-8b13-4a44-aa6b-9ae0f53a9d88.jpg)
-
+<br>
+    **This is the original body, prior to mutation** 
+    ![image](https://user-images.githubusercontent.com/98929421/224854101-78e0b402-9d25-4631-ae8a-1e71c3da832a.png)
+<br> 
+    **The following illustrate possible changes to the original body resulting from each of the mutations** 
+<br> 
+    ![image](https://user-images.githubusercontent.com/98929421/224854243-ed4795d5-9d71-4cc5-b6e7-83794ed7cd47.png)
+<br>
+    ![image](https://user-images.githubusercontent.com/98929421/224854277-b7966a0b-5c3b-45fe-bad4-2dd9477a9804.png)
+<br> 
+    ![image](https://user-images.githubusercontent.com/98929421/224854314-ad3234f5-d0d6-4751-accc-93641a70a952.png)
+<br>
 
 ### Fitness & Fitness Curves
 
-     **insert desc about how fitness calculated**
+The fitness is calculated as farthest absolute distance from the robot's starting point. At every generation, the robot that moved the farthest was selected as the best and set as the parent. The parent is then mutated and evolution is run where mutations occurred. Then the best robot is selected, and the process repeats until the end of the simulation. The final robot should have the highest fitness, meaning it achieved the farthest distance as a result of its mutations. 
 
 ![Final_fit_curve](https://user-images.githubusercontent.com/98929421/224611172-dd14414b-769f-42d4-b27b-07e8a2da5bae.png)
 
-
 #### Citations 
 
-Find pyrosim physics simulator here: 
+Find pyrosim physics simulator here: https://github.com/jbongard/pyrosim
 <br>
-Find more info about ludobots MOOC here: 
+Find more info about ludobots MOOC here: https://www.reddit.com/r/ludobots/wiki/installation/
 <br>
 
 Karl Sims' paper which I referenced when building my diagrams: https://www.karlsims.com/papers/siggraph94.pdf 
