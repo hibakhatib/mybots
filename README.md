@@ -60,8 +60,13 @@ Examples of randomly generated bodies:
 #### Citations 
 
 Find pyrosim physics simulator here: 
+<br>
 Find more info about ludobots MOOC here: 
+<br>
+
+Karl Sims' paper which I referenced when building my diagrams: https://www.karlsims.com/papers/siggraph94.pdf 
+<br>
 
 This project is for CS396 Artifical Life taught by Professor Sam Kriegman at Northwestern University. 
-
-Deepest thanks to TA Donna Hooshmand for great support and mentorship throughout this class. 
+<br>
+Deepest thanks to TA Donna Hooshmand for great support and mentorship throughout. 
