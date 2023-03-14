@@ -10,7 +10,7 @@ In my final project, I improved my A8 assignment and ran it for 300 generations 
 
 Although the preferred task was 500 generations, the run time for my generations made this task unrealistic considering the time deadline. Each generation for a population of 10 was taking approximately 2-3 minutes. For 500 generations, 10 different times, this would have taken at least a week to run all generations (unless I understood incorrectly which is very possible). Minimizing the number of requested generations seemed to produce great results in comparison to my previous simulations while also running in a timely manner. 
 
-### General Overview
+### Videos & Teaser
 
 Quick gif showing one evolution:  
 <br>
@@ -24,6 +24,8 @@ Summary video: https://youtu.be/9DaIDKjyWWY
 2 minute video showing numerous evolutions: https://youtu.be/QLFIh9ZBLcM
 
 <br>
+
+### General Overview
 
 For my final project, I evolved random creatures in 3D. As opposed to my previous bodies, these creatures do not have a presupposed body shape and are randomized to a much greater degree. 
 
