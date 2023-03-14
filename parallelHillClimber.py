@@ -69,10 +69,13 @@ class PARALLEL_HILL_CLIMBER:
      #moved gui line for first up
 		highest_fitness = 0
 		for parent in self.parents.keys():
-			if self.parents[parent].fitness < highest_fitness:
+			self.Best = self.parents[parent]
+			parent  = self.parents[parent]
+			if parent.fitness < highest_fitness:
 				highest_fitness = self.parents[parent].fitness
 				self.Best = self.parents[parent]
-		print("best fitness: " + str(highest_fitness) + "\n")
+				print("best fitness: " + str(highest_fitness) + "\n")
+    
 		self.Best.Start_Simulation("GUI")
 
 	def Save_Fitness(self):
