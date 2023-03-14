@@ -57,6 +57,7 @@ The diagrams below explains the three different types of mutations. All of these
 <br>
 <img width="477" alt="image" src="https://user-images.githubusercontent.com/98929421/224865002-40bfe33f-ac75-4679-a532-54d5a61e01db.png">
 <br> 
+*brief note about this diagram: the link does not exclusively have to be a motor neuron link, this is how I happened to draw the diagram which I now realize may be a little bit confusing. The link being removed/added is any link, including sensor neuron links.*
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/98929421/224865047-0485415e-cdde-4b03-a32e-158bbeca2d72.png">
 <br>
 
