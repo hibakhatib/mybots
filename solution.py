@@ -169,9 +169,9 @@ class SOLUTION:
 			self.color = "0 0 2.5 1.0"
    
 	def Random_Size(self):
-		self.X = random.uniform(0.2, .9)
-		self.Y = random.uniform(0.2, .9)
-		self.Z = random.uniform(0.2, .9)
+		self.X = random.uniform(0.2, 1)
+		self.Y = random.uniform(0.2, 1)
+		self.Z = random.uniform(0.2, 1)
   
 	def Random_Joint(self, i):
 		pos_choices = {
