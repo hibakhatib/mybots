@@ -68,14 +68,25 @@ The diagrams below explains the three different types of mutations. All of these
 
 The fitness is calculated as farthest distance from the robot's starting point. In the figure, the better fitness is at values less than 0 because I wanted the robot to move away from our POV, in the negative direction. 
 <br>
+<br>
 At every generation, the robot that moved the farthest was selected as the best and set as the parent. The parent is then mutated and evolution is run where mutations occurred. Then the best robot is selected, and the process repeats until the end of the simulation. The final robot should have the highest fitness, meaning it achieved the farthest distance as a result of its evolution. 
 
-There are some points in the graph where there is a significant drop in fitness. This could be due to a bad mutation such as a body already having lost most of limbs, losing another important link and losing mobility. 
+There are some points in the graph where there is a significant drop in fitness. This could be due to a bad mutation such as a body already having lost most of limbs, losing another important link and losing good mobility. 
 
 ![Final_fit_curve](https://user-images.githubusercontent.com/98929421/224611172-dd14414b-769f-42d4-b27b-07e8a2da5bae.png)
 
-**might need to answer these questions better**
- Results? What did you find? Plots/diagrams/data/stats? Show evolution: how did bodies/brains/behaviors change over time? What did the lineages look like? Did evolution get stuck sometimes? What did those robots lack? Was there something about them that lowered the likelihood of beneficial mutations? How did you dig further into a detail of the results? Additional analysis?
+## Results & Observations 
+
+From my 30,000 simulations, I was able to conclude the following: 
+
+- smaller bodies are preferred as almost every robot, 7/10 of the random seeds, became smaller in size by the end of their evolution. 
+- complexity leads to less fitness. The bodies that had more complex seeming bodies struggled to move around and often got stuck in place. Below is an example of a complex body which failed vs a simple body which performed well: 
+![complexitygif](https://user-images.githubusercontent.com/98929421/225050536-6d087cdf-47c7-4264-b450-d1c83e46a671.gif)
+<br>
+- if the body was very complex but longer in the vertical direction, it performed better than less complex and much smaller bodies because it had more limbs touching the ground to attempt to use and move with. This often led to jumping and hopping. 
+
+Some of these trends can be seen in this video: https://youtu.be/QLFIh9ZBLcM
+
 
 ## Running this locally
 
