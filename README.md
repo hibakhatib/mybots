@@ -47,16 +47,17 @@ The diagrams below explains the three different types of mutations. All of these
 
 <br>
     This is the original body, prior to mutation:
-![image](https://user-images.githubusercontent.com/98929421/224854101-78e0b402-9d25-4631-ae8a-1e71c3da832a.png)
+    
+<img width="501" alt="image" src="https://user-images.githubusercontent.com/98929421/224864854-5c058f8d-11ad-4b79-a1a9-48336c7ff35a.png">
     
 <br> 
     The following illustrate possible changes to the original body resulting from each of the mutations:
 <br> 
-![image](https://user-images.githubusercontent.com/98929421/224854243-ed4795d5-9d71-4cc5-b6e7-83794ed7cd47.png)
+<img width="475" alt="image" src="https://user-images.githubusercontent.com/98929421/224864949-2586b79a-eb2a-4dcb-a799-8b90c9f7f11c.png">
 <br>
-![image](https://user-images.githubusercontent.com/98929421/224854277-b7966a0b-5c3b-45fe-bad4-2dd9477a9804.png)
+<img width="477" alt="image" src="https://user-images.githubusercontent.com/98929421/224865002-40bfe33f-ac75-4679-a532-54d5a61e01db.png">
 <br> 
-![image](https://user-images.githubusercontent.com/98929421/224854314-ad3234f5-d0d6-4751-accc-93641a70a952.png)
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/98929421/224865047-0485415e-cdde-4b03-a32e-158bbeca2d72.png">
 <br>
 
 ### Fitness & Fitness Curves
