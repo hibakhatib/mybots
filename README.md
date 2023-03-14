@@ -93,6 +93,9 @@ Some of these trends can be seen in this video: https://youtu.be/QLFIh9ZBLcM
 
 After cloning this repo, run the command "python search.py" in your terminal. You will see the initial body, then you will see values print to terminal before being asked to press enter to view evolved body. I recommend going into constants.py to change population size and generation size to view results quicker otherwise it will take several hours. 
 
+##### The algorithm for evolution is in parallelHillClimber.py based on a hill climber evolution: https://en.wikipedia.org/wiki/Hill_climbing
+##### Solution.py is where all the body and brain generation occurs. I would check that out first. Everything else can mostly be found in the ludobots MOOC linked below.
+
 ### Citations 
 
 Find pyrosim physics simulator here: https://github.com/jbongard/pyrosim
