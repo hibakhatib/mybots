@@ -17,14 +17,11 @@ Quick gif showing one evolution:
 ![Evolutionary Robotics Teaser - Made with Clipchamp](https://user-images.githubusercontent.com/98929421/224638366-e6e78117-206e-42e9-b4c4-2a2197a687cd.gif)
 <br>
 
-Summary video: 
-<br>
+Summary video: https://youtu.be/9DaIDKjyWWY
 
 <br>
 
-<br>
-
-2 minute video showing numerous evolutions: 
+2 minute video showing numerous evolutions: https://youtu.be/QLFIh9ZBLcM
 
 <br>
 
