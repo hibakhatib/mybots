@@ -1,6 +1,6 @@
 import random
 
-generations = 2
+generations = 5
 population = 2
 
 motorJointRange = 0.3

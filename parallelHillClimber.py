@@ -7,13 +7,11 @@ class PARALLEL_HILL_CLIMBER:
 
 	def __init__(self):
 		os.system("del brain.nndf")
-		os.system("del Fitness.txt")
+		os.system("del fitness.txt")
 		os.system("del body.urdf")
-		os.system("del OverallFitness.txt")
   
 		self.nextAvailableID = 0
 		self.parents = {}
-		self.Best = None
 		for i in range(c.population):
 			self.parents[i] = SOLUTION(self.nextAvailableID)
 			self.nextAvailableID += 1
@@ -66,17 +64,23 @@ class PARALLEL_HILL_CLIMBER:
 				self.parents[parent] = self.children[parent]
 
 	def Show_Best(self):
-     #moved gui line for first up
-		highest_fitness = 0
-		for parent in self.parents.keys():
-			self.Best = self.parents[parent]
-			parent  = self.parents[parent]
-			if parent.fitness < highest_fitness:
-				highest_fitness = self.parents[parent].fitness
-				self.Best = self.parents[parent]
-				print("best fitness: " + str(highest_fitness) + "\n")
-    
-		self.Best.Start_Simulation("GUI")
+			highest_fitness = 0
+			for k in self.parents.keys():
+				best = self.parents[k]
+				parent  = self.parents[k]
+				if(parent.fitness < highest_fitness):
+					best = parent
+					highest_fitness = parent.fitness
+			best.Start_Simulation("GUI")
+     #moved gui line for first up below breaks even though exact same 
+		# highest_fitness = 0
+		# for parent in self.parents.keys():
+		# 	self.Best = self.parents[parent]
+		# 	parent  = self.parents[parent]
+		# 	if parent.fitness < highest_fitness:
+		# 		highest_fitness = self.parents[parent].fitness
+		# 		self.Best = self.parents[parent]
+		# self.Best.Start_Simulation("GUI")
 
 	def Save_Fitness(self):
 		f = open("fitness.txt", 'a')
