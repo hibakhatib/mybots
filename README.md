@@ -62,7 +62,7 @@ The diagrams below explains the three different types of mutations. All of these
 
 ### Fitness & Fitness Curves
 
-The fitness is calculated as farthest absolute distance from the robot's starting point. At every generation, the robot that moved the farthest was selected as the best and set as the parent. The parent is then mutated and evolution is run where mutations occurred. Then the best robot is selected, and the process repeats until the end of the simulation. The final robot should have the highest fitness, meaning it achieved the farthest distance as a result of its mutations. 
+The fitness is calculated as farthest distance from the robot's starting point. In the figure, the better fitness is at values less than 0 because I wanted the robot to move away from the camera, in the negative direction. At every generation, the robot that moved the farthest was selected as the best and set as the parent. The parent is then mutated and evolution is run where mutations occurred. Then the best robot is selected, and the process repeats until the end of the simulation. The final robot should have the highest fitness, meaning it achieved the farthest distance as a result of its mutations. 
 
 ![Final_fit_curve](https://user-images.githubusercontent.com/98929421/224611172-dd14414b-769f-42d4-b27b-07e8a2da5bae.png)
 
