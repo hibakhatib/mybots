@@ -82,9 +82,10 @@ From my 30,000 simulations, I was able to conclude the following:
 - smaller bodies are preferred as almost every robot, 7/10 of the random seeds, became smaller in size by the end of their evolution. 
 - complexity leads to less fitness. The bodies that had more complex seeming bodies struggled to move around and often got stuck in place. Below is an example of a complex body which failed vs a simple body which performed well: 
 ![complexitygif](https://user-images.githubusercontent.com/98929421/225050536-6d087cdf-47c7-4264-b450-d1c83e46a671.gif)
-<br>
 - if the body was very complex but longer in the vertical direction, it performed better than less complex and much smaller bodies because it had more limbs touching the ground to attempt to use and move with. This often led to jumping and hopping. 
 
+<br>
+<br>
 Some of these trends can be seen in this video: https://youtu.be/QLFIh9ZBLcM
 
 
