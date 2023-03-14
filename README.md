@@ -46,17 +46,17 @@ After cloning this repo, run the command "python search.py" in your terminal. Yo
 The diagrams below explains the three different types of mutations. All of these mutations occurred at random. There was a mutation on every best robot per generation. The addition or removal of a link was a 50% chance while the synapse weights and sensor removals/link size changes occurred every time. 
 
 <br>
-    **This is the original body, prior to mutation** 
+    This is the original body, prior to mutation:
 ![image](https://user-images.githubusercontent.com/98929421/224854101-78e0b402-9d25-4631-ae8a-1e71c3da832a.png)
     
 <br> 
-    **The following illustrate possible changes to the original body resulting from each of the mutations** 
+    The following illustrate possible changes to the original body resulting from each of the mutations:
 <br> 
-    ![image](https://user-images.githubusercontent.com/98929421/224854243-ed4795d5-9d71-4cc5-b6e7-83794ed7cd47.png)
+![image](https://user-images.githubusercontent.com/98929421/224854243-ed4795d5-9d71-4cc5-b6e7-83794ed7cd47.png)
 <br>
-    ![image](https://user-images.githubusercontent.com/98929421/224854277-b7966a0b-5c3b-45fe-bad4-2dd9477a9804.png)
+![image](https://user-images.githubusercontent.com/98929421/224854277-b7966a0b-5c3b-45fe-bad4-2dd9477a9804.png)
 <br> 
-    ![image](https://user-images.githubusercontent.com/98929421/224854314-ad3234f5-d0d6-4751-accc-93641a70a952.png)
+![image](https://user-images.githubusercontent.com/98929421/224854314-ad3234f5-d0d6-4751-accc-93641a70a952.png)
 <br>
 
 ### Fitness & Fitness Curves
