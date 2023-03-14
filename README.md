@@ -47,7 +47,8 @@ The diagrams below explains the three different types of mutations. All of these
 
 <br>
     **This is the original body, prior to mutation** 
-    ![image](https://user-images.githubusercontent.com/98929421/224854101-78e0b402-9d25-4631-ae8a-1e71c3da832a.png)
+![image](https://user-images.githubusercontent.com/98929421/224854101-78e0b402-9d25-4631-ae8a-1e71c3da832a.png)
+    
 <br> 
     **The following illustrate possible changes to the original body resulting from each of the mutations** 
 <br> 
