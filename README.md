@@ -3,7 +3,7 @@ Hiba Khatib
 
 
 ## Brief notes on number of simulations
-Project: Engineer Option (44pts)
+Project: Engineer Option (pts- whatever makes my grade higher :) )
 
 In my final project, I improved my A8 assignment and ran it for 300 generations on populations of 10 on 10 random seeds. 
 
